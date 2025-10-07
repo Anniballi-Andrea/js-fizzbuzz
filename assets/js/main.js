@@ -14,10 +14,27 @@ Abbiamo visto qualcosa di particolare che possiamo usare?*/
 -% x == 0
  */
 //creare una variabile per il risultato
+let risultato 
 
 //creare un ciclo for per i numeri che vanno da 1 a 100
 
-//filtrare i numeri multipli di 3 e di 5 
+for (let i = 1; i <= 100; i++) {
+    
+    if (i % 3 ===0 && i % 5 ===0) {
+        //filtrare i numeri multipli di 3 e di 5 
+        risultato= "FizzBuzz"
+    } else {
+        risultato= i
+    }
+    
+    console.log(risultato);
+}
+
+
+
+
+
+
 
 // filtrare i numeri multipli di 3
 
