@@ -23,12 +23,17 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         //filtrare i numeri multipli di 3 e di 5 
         risultato = "FizzBuzz"
-    }  else if(i % 3 === 0){
+    } else if (i % 3 === 0) {
         // filtrare i numeri multipli di 3
 
         risultato = "Fizz"
+    } else if (i % 5 === 0) {
+        // filtrare i numeri multipli di 5
+
+        risultato = "Buzz"
     }
     else {
+        // stampare i numeri rimanenti
         risultato = i
     }
 
@@ -42,6 +47,5 @@ for (let i = 1; i <= 100; i++) {
 
 
 
-// filtrare i numeri multipli di 5
 
-// stampare i numeri rimanenti
+
